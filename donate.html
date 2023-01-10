@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Donate | Timoshas smile</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230110144137">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="page__header header">
+			<div class="header__container">
+				<a href="home.html" class="header__logo">
+					<picture><source srcset="img/logo1.webp" type="image/webp"><img src="img/logo1.jpg" alt="Logo Timoshas Smile"></picture>
+				</a>
+
+
+				<div class="header__menu menu">
+
+					<nav class="menu__body">
+
+						<ul class="menu__list">
+							<li class="menu__item"><a href="about.html" class="menu__link">ABOUT THE FOUNDATION</a></li>
+							<li class="menu__item"><a href="news.html" class="menu__link">NEWS</a></li>
+							<li class="menu__item"><a href="contacts.html" class="menu__link">CONTACTS</a></li>
+							<!-- <li class="menu__item"><a href="chronology.html" class="menu__link">Chronology</a></li> -->
+							<li class="menu__item"><a href="about.html" class="menu__link">Documents</a></li>
+							<li class="menu__item"><a href="partners.html" class="menu__link">PARTNERS</a></li>
+
+
+
+
+						</ul>
+
+					</nav>
+				</div>
+
+				<div class="header__actions">
+
+					<div class="header__social social header-social">
+						<div class="social__item"><a href="https://www.facebook.com/groups/223749178221080/" class="social__link _icon-facebook"></a></div>
+						<div class="social__item"><a href="https://www.instagram.com/timoshas_smile/" class="social__link _icon-inst"></a></div>
+						<div class="social__item"><a href="https://www.youtube.com/channel/UCTxyhDphiFs_IBHk4I24DRg" class="social__link _icon-youtube"></a></div>
+					</div>
+
+					<a href="donate.html" class="header__button wave-btn">
+						<span class="wave-btn__text">I want to help</span>
+						<span class="wave-btn__waves"></span>
+					</a>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+
+				</div>
+			</div>
+		</header>
+		<main class="page__donate">
+
+			<section class="donate__head head">
+				<div class="head__container">
+					<div class="head__body">
+						<div class="head__title">Donate</div>
+						<div class="head__text">We collected the most convenient methods to let you make a donation easily</div>
+					</div>
+			</section>
+			<!-- //======================================================================================================================================================== -->
+
+			<section class="donate__tabs donate-tabs">
+				<div class="donate-tabs__container">
+					<div class="donate-tabs__title">CHOOSE A CONVENIENT WAY TO DONATE <span class="dot"></span></div>
+					<div class="donate-tabs__text">Thank you for your willingness to support the existence and work of our
+						foundation. On this page you can choose a convenient way to donate.</div>
+					<div class="donate-tabs__body">
+						<div data-tabs class="tabs">
+							<nav data-tabs-titles class="tabs__navigation">
+								<button type="button" class="tabs__title _tab-active">Visa/Mastercard card</button>
+								<button type="button" class="tabs__title">International transfer</button>
+								<button type="button" class="tabs__title">Transfer by details</button>
+							</nav>
+							<div data-tabs-body class="tabs__content">
+								<div class="tabs__body tabs-body">
+									<div class="tabs-body__text">You can make a donation through the Liqpay payment system with a Visa /
+										Mastercard card. To do this, click the button below:
+									</div>
+
+									<!-- //======================================================================================================================================================== -->
+
+
+									<div class="form-box">
+										<form method="post" class="donate-form" action="https://timoshas-smile.org/wp-admin/admin-ajax.php" data-result="#go_to_checkout-ajax-result">
+
+											<div class="form-group">
+												<label class="form-group__label">Donation type</label>
+												<div class="radio__body">
+
+													<div class="radio__item">
+														<input type="radio" name="donation-type" value="one-time" checked="" class="radio-input" id="donation-type-one-time">
+														<label for="donation-type-one-time" class="radio-label"><span class="label-text">One-time</span></label>
+													</div>
+
+													<div class="radio__item">
+														<input type="radio" name="donation-type" value="month" class="radio-input" id="donation-type-month">
+														<label for="donation-type-month" class="radio-label"><span class="label-text">Monthly</span></label>
+													</div>
+
+													<div class="radio__item">
+														<input type="radio" name="donation-type" value="year" class="radio-input" id="donation-type-year">
+														<label for="donation-type-year" class="radio-label"><span class="label-text">Annually</span></label>
+													</div>
+												</div>
+
+											</div>
+
+											<div class="form-group">
+												<label class="form-group__label">Donation amount</label>
+												<div class="radio__body">
+													<div class="radio__item">
+														<input type="radio" name="donation-amount" value="10" class="radio-input " id="donation-amount-10">
+														<label for="donation-amount-10" class="radio-label">
+															<span class="label-text ">10 USD</span>
+														</label>
+													</div>
+
+													<div class="radio__item">
+														<input type="radio" name="donation-amount" value="25" checked="" class="radio-input " id="donation-amount-25">
+														<label for="donation-amount-25" class="radio-label">
+															<span class="label-text ">25 USD</span>
+														</label>
+													</div>
+
+													<div class="radio__item">
+														<input type="radio" name="donation-amount" value="50" class="radio-input " id="donation-amount-50">
+														<label for="donation-amount-50" class="radio-label">
+															<span class="label-text ">50 USD</span>
+														</label>
+													</div>
+
+													<div class="radio__item">
+														<input type="radio" name="donation-amount" value="100" class="radio-input " id="donation-amount-100">
+														<label for="donation-amount-100" class="radio-label">
+															<span class="label-text ">100 USD</span>
+														</label>
+													</div>
+
+													<div class="radio__item radio-item-amount">
+														<input type="radio" name="donation-amount" value="0" class="radio-input cond-logic-radio" id="donation-amount-0">
+														<label for="donation-amount-0" class="radio-label">
+															<div class="input-group">
+																<input type="number" name="donation-amount-other" class="radio-input-text required" placeholder="Amount" step="50">
+																<div class="input-group-append">
+																	<span class="input-group-text">USD</span>
+																</div>
+															</div>
+														</label>
+													</div>
+												</div>
+											</div>
+											<div class="form-group">
+												<input type="text" name="name" class="form-control" placeholder="From whom is this donation? (optional)">
+											</div>
+											<div class="form-alert__text">By clicking the "Send
+												Payment" button, you agree that the donated funds are non-refundable (charity)</div>
+											<div class="form-group__button">
+												<button type="submit" class="form-group__btn ">Send payment →</button>
+											</div>
+										</form>
+									</div>
+
+									<!-- //======================================================================================================================================================== -->
+
+
+								</div>
+
+								<div class="tabs__body tabs-body">
+									<div class="tabs-body__text">You can send donations using any system of international transfers
+										convenient for you (Western Union, MoneyGram, RIA, Meest, Welsend etc.).</div>
+									<div class="tabs-body__title">Requisites for international transfers:</div>
+									<div class="tabs-body__text">Sanko Yuliia <br>
+										Ukraine, Rivne</div>
+									<div class="tabs-body__text">If you have already sent a transfer, please fill out the form below to
+										let us know about your transfer:</div>
+
+									<div class="form-box">
+										<form method="post" class="question-form" action="https://timoshas-smile.org/wp-admin/admin-ajax.php">
+
+											<div class="form-group">
+												<input type="text" class="form-control" placeholder="Your name" name="name">
+											</div>
+											<div class="form-group">
+												<input type="text" class="form-control required" placeholder="Payment System name" name="payment-system">
+											</div>
+
+											<div class="row">
+												<div class="form-group__transfer">
+													<div class="form-group">
+														<input type="text" class="form-control required" placeholder="Transfer number" name="payment-code">
+													</div>
+												</div>
+												<div class="form-group__amount">
+													<div class="form-group">
+														<input type="text" class="form-control required" placeholder="Transfer amount" name="payment-amount">
+													</div>
+												</div>
+												<div class="form-group__currency">
+													<div class="form-group">
+														<select class="form-control" name="payment-currency">
+															<option value="UAH">UAH</option>
+															<option value="UAH">USD</option>
+															<option value="UAH">EUR</option>
+															<option value="PLN">PLN</option>
+															<option value="RUB">RUB</option>
+														</select>
+													</div>
+												</div>
+											</div>
+
+											<div class="form-group ">
+												<textarea class="form-control" name="message" placeholder="Comment"></textarea>
+											</div>
+											<div class="form-group">
+												<input type="text" class="form-control required" placeholder="How can we contact you?" name="contact">
+											</div>
+											<div class="form-alert"></div>
+											<div class="form-group__button ">
+												<button type="submit" class="form-group__btn ">Send</button>
+											</div>
+										</form>
+									</div>
+
+
+
+
+
+
+								</div>
+
+								<div class="tabs__body tabs-body">
+									Вміст третього таба
+
+
+									<div data-tabs class="tabs">
+										<nav data-tabs-titles class="tabs__navigation">
+											<button type="button" class="tabs__title _tab-active">USD </button>
+											<button type="button" class="tabs__title">UAH</button>
+											<button type="button" class="tabs__title">EUR</button>
+											<button type="button" class="tabs__title">RUB</button>
+											<button type="button" class="tabs__title">BYN</button>
+
+										</nav>
+										<div data-tabs-body class="tabs__content">
+
+											<div class="tabs__body">
+												<div class="tabs-body__text">
+													Company Name<br>
+													ХБФ УСМIШКА ТИМОШI БО / CO CCF TIMOSHA’S SMILE
+												</div>
+												<div class="tabs-body__text">IBAN Code<br>
+													UA313333910000026009054738056</div>
+												<div class="tabs-body__text">
+													Name of the bank<br>
+													JSC CB "PRIVATBANK", 1D HRUSHEVSKOHO STR., KYIV, 01001, UKRAINE
+												</div>
+												<div class="tabs-body__text">Bank SWIFT Code<br>
+													PBANUA2X</div>
+												<div class="tabs-body__text">Company address<br>
+													UA 33010 Рiвненська, м. Рiвне, вул Макарова, б. 10 кв. 99</div>
+												<div class="tabs-body__text">Correspondent banks<br>
+													---</div>
+												<div class="tabs-body__text">Account in the correspondent bank<br>
+													001-1-000080</div>
+												<div class="tabs-body__text">SWIFT Code of the correspondent bank<br>
+													CHASUS33</div>
+												<div class="tabs-body__text">
+													Correspondent bank
+													JP Morgan Chase Bank, New York , USA</div>
+												<div class="tabs-body__text">--- or ---</div>
+												<div class="tabs-body__text">Account in the correspondent bank<br>
+													890-0085-754</div>
+												<div class="tabs-body__text">SWIFT Code of the correspondent bank<br>
+													IRVT US 3N</div>
+												<div class="tabs-body__text">
+													Correspondent bank<br>
+													The Bank of New York Mellon, New York, USA</div>
+
+											</div>
+
+											<div class="tabs__body">
+												<div class="tabs-body__text">Company Name<br>
+													БО ХБФ УСМІШКА ТИМОШІ</div>
+												<div class="tabs-body__text">Company code<br>
+													43624277</div>
+												<div class="tabs-body__text">Company Account / IBAN<br>
+													UA663052990000026009000705161</div>
+												<div class="tabs-body__text">Bank name<br>
+													РIВНЕНСЬКА ФIЛIЯ АТ КБ "ПРИВАТБАНК"</div>
+											</div>
+
+											<div class="tabs__body">
+												<div class="tabs-body__text">Company Name<br>
+													ХБФ УСМIШКА ТИМОШI БО / CO CCF TIMOSHA’S SMILE</div>
+												<div class="tabs-body__text">IBAN Code<br>
+													UA173333910000026003054738803</div>
+												<div class="tabs-body__text">Name of the bank<br>
+													JSC CB "PRIVATBANK", 1D HRUSHEVSKOHO STR., KYIV, 01001, UKRAINE</div>
+												<div class="tabs-body__text">Bank SWIFT Code<br>
+													PBANUA2X</div>
+												<div class="tabs-body__text">Company address<br>
+													UA 33010 Рiвненська, м. Рiвне вул Макарова, б. 10, кв. 99</div>
+												<div class="tabs-body__text">Correspondent banks<br>
+													---</div>
+												<div class="tabs-body__text">Account in the correspondent bank<br>
+													400886700401</div>
+												<div class="tabs-body__text">SWIFT Code of the correspondent bank<br>
+													COBADEFF</div>
+												<div class="tabs-body__text">Correspondent bank<br>
+													Commerzbank AG, Frankfurt am Main, Germany</div>
+												<div class="tabs-body__text">--- or ---</div>
+												<div class="tabs-body__text">Account in the correspondent bank<br>
+													6231605145</div>
+												<div class="tabs-body__text">SWIFT Code of the correspondent bank<br>
+													CHASDEFX</div>
+												<div class="tabs-body__text">Correspondent bank<br>
+													J.P.MORGAN AG, FRANKFURT AM MAIN, GERMANY</div>
+
+											</div>
+
+											<div class="tabs__body">
+												<div class="tabs-body__text">Сompany Name<br>
+													ХБФ УСМIШКА ТИМОШI БО / CO CCF TIMOSHA’S SMILE
+												</div>
+												<div class="tabs-body__text">IBAN Code<br>
+													UA183052990000026008000701791</div>
+											</div>
+
+											<div class="tabs__body">
+												<div class="tabs-body__text">Сompany Name<br>
+													ХБФ УСМIШКА ТИМОШI БО / CO CCF TIMOSHA’S SMILE</div>
+												<div class="tabs-body__text">IBAN Code<br>
+													UA763052990000026003030701368</div>
+											</div>
+										</div>
+									</div>
+
+
+
+
+
+
+
+
+
+
+
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+
+
+
+
+				</div>
+			</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<!-- //======================================================================================================================================================== -->
+			<section class="donate__newsletter newsletter">
+				<div class="newsletter__container">
+					<div class="newsletter__head ">
+						<div class="head__container head-newsletter-container ">
+							<div class="head__body head-newsletter-body">
+								<div class="head__title">SIGN UP FOR OUR EMAIL NEWSLETTER <span class="dot"></span></div>
+								<div class="head__text">Want to receive news to your email? Add your email to our newsletter list</div>
+							</div>
+						</div>
+					</div>
+
+
+					<form class="newsletter__subscribe subscribe" action="files/sendmail/sendmail.php" method="POST">
+						<input type="text" name="form[email]" data-error="Error" placeholder="Email" class=" subscribe__item  subscribe__input">
+						<select name="book_id" class="subscribe__item  form-control form-select required">
+							<option disabled="" selected="" value="">Mailing language</option>
+							<option value="503827">Українська</option>
+							<option value="537851">Русский</option>
+							<option value="537852">English</option>
+							<option value="537853">Deutsch</option>
+							<option value="537854">Español</option>
+							<option value="537855">Italiano</option>
+						</select>
+						<button type="submit" class="subscribe__item button">Subscribe</button>
+					</form>
+				</div>
+			</section>
+
+
+
+
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+
+
+				<div class="footer__copy">© Timosha's Smile, 2023</div>
+
+				<div class="footer__payment payment-systems">
+					<div class="payment-systems__visa">
+						<img src="img/icons/visa.svg" alt="visa">
+					</div>
+					<div class="payment-systems__mastercard">
+						<img src="img/icons/mastercard.svg" alt="mastercard">
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+
+
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230110144137"></script>
+</body>
+
+</html>
